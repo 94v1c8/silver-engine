@@ -1,0 +1,13 @@
+[uBlock Origin]
+! Title: Chat and Social Network Blocklist (94v1c8)
+! Last modified: Wed, 10 Apr 2024 15:13:28 +0000
+! Expires: 5 days (update frequency)
+! Description: Bespoke custom filters for adult sites.
+! Homepage: https://github.com/94v1c8/silver-engine
+! License: https://github.com/94v1c8/silver-engine/blob/master/LICENSE
+! Email: nassbar@gmail.com
+!
+
+! Disable 3p discussion sites
+||disquscdn.com^$3p
+||disqus.com^$3p

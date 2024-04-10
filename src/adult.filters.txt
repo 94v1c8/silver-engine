@@ -1,0 +1,21 @@
+[uBlock Origin]
+! Title: 94v1c8 Adult Site Filters
+! Last modified: Wed, 10 Apr 2024 15:13:28 +0000
+! Expires: 5 days (update frequency)
+! Description: Bespoke custom filters for adult sites.
+! Homepage: https://github.com/94v1c8/silver-engine
+! License: https://github.com/94v1c8/silver-engine/blob/master/LICENSE
+! Email: nassbar@gmail.com
+!
+
+! https://www.xnxx.com https://www.xnxx.com/search/20min+/australian
+! https://www.xvideos.com https://www.xvideos.com/c/s:uploaddate/d:20min_more/Fucked_Up_Family-81
+xvideos.com,xnxx.com##.premium-results-line
+
+! https://www.tubeon.com https://www.tubeon.com/video/137223/pretty-young-woman-spreads-her-legs-to-take-in-a-turgid-piston
+||tbnpsn.com^$subdocument
+tubeon.com##.drt-spot-visible
+
+! https://chaturbate.com https://chaturbate.com
+chaturbate.com##[href="/trans-cams/"]
+chaturbate.com##[href="/male-cams/"]

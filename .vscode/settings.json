@@ -1,1 +1,20 @@
-{}
+{
+  "[adblock]": {
+    "files.eol": "\n"
+  },
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "keep",
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "adblock.enableAglint": true,
+  "adblock.packageManager": "pnpm",
+  "adblock.useExternalAglintPackages": false,
+  "json.schemas": []
+}
