@@ -1,21 +1,36 @@
-[uBlock Origin]
-! Title: 94v1c8 Adult Site Filters
-! Last modified: Wed, 10 Apr 2024 15:13:28 +0000
+[94v1c8]
+! Title: Adult Site Filters
+! Last modified: Sun, 21 Apr 2024 15:06:57 +0000
 ! Expires: 5 days (update frequency)
 ! Description: Bespoke custom filters for adult sites.
 ! Homepage: https://github.com/94v1c8/silver-engine
 ! License: https://github.com/94v1c8/silver-engine/blob/master/LICENSE
-! Email: nassbar@gmail.com
-!
 
-! https://www.xnxx.com https://www.xnxx.com/search/20min+/australian
-! https://www.xvideos.com https://www.xvideos.com/c/s:uploaddate/d:20min_more/Fucked_Up_Family-81
+
+! https://xvideos.com
+||xvideos-cdn.com/**/chat.js$script,domain=xvideos.com|xnxx.com
+||xvideos.com/profiles/$xhr,domain=xvideos.com|xnxx.com
+||xvideos.com/threads/video-comments/$xhr,domain=xvideos.com|xnxx.com
+||1ka.com^$websocket,domain=xvideos.com|xnxx.com
 xvideos.com,xnxx.com##.premium-results-line
+xvideos.com,xnxx.com###tabComments_bottom_page
 
-! https://www.tubeon.com https://www.tubeon.com/video/137223/pretty-young-woman-spreads-her-legs-to-take-in-a-turgid-piston
+
+! https://fapix.porn
+||yastatic.net^$script,domain=`
+||fapix.porn/comments/*$domain=fapix.porn
+||vocaltrainer.pro^$subdocument
+||fapix.porn/*/all_a.js$script,domain=fapix.porn
+
+
+! https://www.tubeon.com
 ||tbnpsn.com^$subdocument
 tubeon.com##.drt-spot-visible
 
-! https://chaturbate.com https://chaturbate.com
-chaturbate.com##[href="/trans-cams/"]
-chaturbate.com##[href="/male-cams/"]
+
+! http://chaturbate.com
+chaturbate.com##a[href*="gaming"]
+chaturbate.com##a[href*="/male"]
+chaturbate.com##a[href*="/trans"]
+chaturbate.com##a[href*="private"]
+chaturbate.com##.col3

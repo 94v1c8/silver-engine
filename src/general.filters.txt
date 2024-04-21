@@ -1,23 +1,25 @@
-[uBlock Origin]
-! Title: 94v1c8 Gemeral Filters
-! Last modified: Wed, 10 Apr 2024 15:13:28 +0000
+[94v1c8]
+! Title: Gemeral Filters
+! Last modified: Sun, 21 Apr 2024 15:06:57 +0000
 ! Expires: 5 days (update frequency)
 ! Description: Bespoke custom filters for any and all sites.
 ! Homepage: https://github.com/94v1c8/silver-engine
 ! License: https://github.com/94v1c8/silver-engine/blob/master/LICENSE
-! Email: nassbar@gmail.com
-!
+
 
 ! "ping" requests
 ||^$ping
 
+
 ! Third party scripts
 # ||^$3p,script
+
 
 ! Third party frames
 # ||^$3p,frame
 
-! 2024-02-22 https://www.jetstar.com https://www.jetstar.com/au/en/inspiration/articles/top-5-things-to-do-perth-on-a-budget
-# jetstar.com##.nuance-chat-floating-container
-# jetstar.com##.aside
-# jetstar.com##.magazine__widgets
+
+! https://www.jetstar.com
+jetstar.com##.aside
+jetstar.com##.magazine__widgets
+jetstar.com##.nuance-chat-floating-container
